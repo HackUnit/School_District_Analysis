@@ -4,7 +4,7 @@
 
 ### Overview of the school district analysis:
 
-This project began as a task from a School District that took in data from each of its schools in the district. The key metrics included each schools budget, size, academic performance per grade on reading and math, and type of school. This data was inspected, cleaned and sorted with a variety of code. These clean datasets were then used to generate a summary on the overall School District, and then specifically generated the School Summary. Further analysis was performed before sending in the completed dataset. This dataset was found to show acedemic dishonesty; specifically, reading and math grades for Thomas High School ninth graders seems to have been altered. To uphold state-testing standards the data was reparsed and analyzed to correct the problem and provide a final complete analysis.
+This project began as a task from a School District that took in data from each of its schools in the district. The key metrics included each school’s budget, size, academic performance per grade on reading and math, and type of school. This data was inspected, cleaned and sorted with a variety of code. These clean datasets were then used to generate a summary on the overall School District, and then specifically generated the School Summary. Further analysis was performed before sending in the completed dataset. This dataset was found to show academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders which seemed to have been altered. To uphold state-testing standards the data was reparsed and analyzed to correct the problem and provide a final complete analysis.
 
 
 ## Results:
@@ -41,10 +41,10 @@ The data was then sorted to create a new DataFrames revolving around Thomas High
 ### Effects on High and Low Performing Schools
 
 ![Image of Top Five Schools Before](/Resources/Top_five_schools_before.png)
-<sub>DataFrame of Top Five Schools Before re-analizing the data.</sub>
+<sub>DataFrame of Top Five Schools Before re-analyzing the data.</sub>
 
 
-Since the data had been corrected, the dataset further needed to be re-analized. To start the highest and lowest performing schools was re-calculated.
+Since the data had been corrected, the dataset further needed to be re-analyzed. To start the highest and lowest performing schools was re-calculated.
 
 - With the NaN values, Thomas High School's overall passing moved down in decimal points.
 
@@ -60,20 +60,20 @@ Since the data had been corrected, the dataset further needed to be re-analized.
 
 The next step was to re-calculate the math and reading scores by grade.
 
-- With the NaN value inserted, besides the "(9th)" grade, all of the other values remained the same in the re-analization.
+- With the NaN value inserted, besides the "(9th)" grade, all of the other values remained the same in the re-analyzation.
 
 ![Image of post math scores](/Resources/Post_math_scores.png)
-<sub>DataFrame of Math scores post re-analization.</sub>
+<sub>DataFrame of Math scores post re-analyzation.</sub>
 
 
 ![Image of post reading scores](/Resources/Post_reading_scores.png)
-<sub>DataFrame of Reading scores post re-analization.</sub>
+<sub>DataFrame of Reading scores post re-analyzation.</sub>
 
 
 ### Effects on School Spending Scores
 
 ![Image of School Spending Post and Original](/Resources/School_spending_post_original.png)
-<sub>DataFrames of the post and original analization of School Spending.</sub>
+<sub>DataFrames of the post and original analyzation of School Spending.</sub>
 
 
 - The differences between the original and post calculations on school spending per student is about 0.1%, which only really shows in the $630-$645 bin of the overall passing percentage. The data as a whole is not largely affected by the NaN values.
@@ -81,8 +81,8 @@ The next step was to re-calculate the math and reading scores by grade.
 
 ### Effects on School Size Scores
 
-![Image of Shool Size Scores Post and Original](/Resources/School_size_post_og.png)
-<sub>DataFrames of the post and original analization of School Sizes.</sub>
+![Image of School Size Scores Post and Original](/Resources/School_size_post_og.png)
+<sub>DataFrames of the post and original analyzation of School Sizes.</sub>
 
 
 - No difference is found when the School Size scores are calculated.
@@ -104,5 +104,4 @@ The next step was to re-calculate the math and reading scores by grade.
 
 - The third change is in regards to the school spending. The change was nominal and only showed up as a 0.1% change in the $630-$645 bin of the overall passing percentage.
 
-- The fourth change is the 0.1% difference between metric values of the original and post analized Charter data type. The Distric data type remained the same over both analysises.
-
+- The fourth change is the 0.1% difference between metric values of the original and post analyzed Charter data type. The District data type remained the same over both analyses.
