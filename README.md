@@ -1,8 +1,8 @@
 # School_District_Analysis
 
-##Analysis on a School District.
+## Analysis on a School District.
 
-###Overview of the school district analysis:
+### Overview of the school district analysis:
 
 This project began as a task from a School District that took in data from each of its schools in the district. The key metrics included each schools budget, size, academic performance per grade on reading and math, and type of school. This data was inspected, cleaned and sorted with a variety of code. These clean datasets were then used to generate a summary on the overall School District, and then specifically generated the School Summary. Further analysis was performed before sending in the completed dataset. This dataset was found to show acedemic dishonesty; specifically, reading and math grades for Thomas High School ninth graders seems to have been altered. To uphold state-testing standards the data was reparsed and analyzed to correct the problem and provide a final complete analysis.
 
